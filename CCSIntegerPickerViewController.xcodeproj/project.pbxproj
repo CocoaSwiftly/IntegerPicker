@@ -10,6 +10,15 @@
 		C910AC082162C14600D1F982 /* CCSIntegerPickerViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910ABFE2162C14500D1F982 /* CCSIntegerPickerViewController.framework */; };
 		C910AC0D2162C14600D1F982 /* CCSIntegerPickerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910AC0C2162C14600D1F982 /* CCSIntegerPickerViewControllerTests.swift */; };
 		C910AC0F2162C14600D1F982 /* CCSIntegerPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C910AC012162C14500D1F982 /* CCSIntegerPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C910AC1F2162C2FD00D1F982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910AC1E2162C2FD00D1F982 /* AppDelegate.swift */; };
+		C910AC212162C2FD00D1F982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910AC202162C2FD00D1F982 /* ViewController.swift */; };
+		C910AC262162C2FE00D1F982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C910AC252162C2FE00D1F982 /* Assets.xcassets */; };
+		C910AC292162C2FE00D1F982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C910AC272162C2FE00D1F982 /* LaunchScreen.storyboard */; };
+		C910AC2F2162C5AA00D1F982 /* IntegerPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910AC2E2162C5AA00D1F982 /* IntegerPickerViewController.swift */; };
+		C910AC332162C69A00D1F982 /* UnitName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910AC322162C69A00D1F982 /* UnitName.swift */; };
+		C910AC352162C70500D1F982 /* IntegerPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910AC342162C70500D1F982 /* IntegerPickerTableViewCell.swift */; };
+		C910AC372162C7D700D1F982 /* CheckmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910AC362162C7D700D1F982 /* CheckmarkTableViewCell.swift */; };
+		C910AC3F2162C98600D1F982 /* CCSIntegerPickerViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910ABFE2162C14500D1F982 /* CCSIntegerPickerViewController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,16 @@
 		C910AC072162C14600D1F982 /* CCSIntegerPickerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCSIntegerPickerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C910AC0C2162C14600D1F982 /* CCSIntegerPickerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCSIntegerPickerViewControllerTests.swift; sourceTree = "<group>"; };
 		C910AC0E2162C14600D1F982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C910AC1C2162C2FD00D1F982 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C910AC1E2162C2FD00D1F982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C910AC202162C2FD00D1F982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C910AC252162C2FE00D1F982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C910AC282162C2FE00D1F982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C910AC2A2162C2FE00D1F982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C910AC2E2162C5AA00D1F982 /* IntegerPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerPickerViewController.swift; sourceTree = "<group>"; };
+		C910AC322162C69A00D1F982 /* UnitName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitName.swift; sourceTree = "<group>"; };
+		C910AC342162C70500D1F982 /* IntegerPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerPickerTableViewCell.swift; sourceTree = "<group>"; };
+		C910AC362162C7D700D1F982 /* CheckmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C910AC192162C2FD00D1F982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910AC3F2162C98600D1F982 /* CCSIntegerPickerViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +82,9 @@
 			children = (
 				C910AC002162C14500D1F982 /* CCSIntegerPickerViewController */,
 				C910AC0B2162C14600D1F982 /* CCSIntegerPickerViewControllerTests */,
+				C910AC1D2162C2FD00D1F982 /* Example */,
 				C910ABFF2162C14500D1F982 /* Products */,
+				C910AC382162C88F00D1F982 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +93,7 @@
 			children = (
 				C910ABFE2162C14500D1F982 /* CCSIntegerPickerViewController.framework */,
 				C910AC072162C14600D1F982 /* CCSIntegerPickerViewControllerTests.xctest */,
+				C910AC1C2162C2FD00D1F982 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				C910AC012162C14500D1F982 /* CCSIntegerPickerViewController.h */,
+				C910AC2E2162C5AA00D1F982 /* IntegerPickerViewController.swift */,
+				C910AC342162C70500D1F982 /* IntegerPickerTableViewCell.swift */,
+				C910AC322162C69A00D1F982 /* UnitName.swift */,
+				C910AC362162C7D700D1F982 /* CheckmarkTableViewCell.swift */,
 				C910AC022162C14500D1F982 /* Info.plist */,
 			);
 			path = CCSIntegerPickerViewController;
@@ -84,6 +118,25 @@
 				C910AC0E2162C14600D1F982 /* Info.plist */,
 			);
 			path = CCSIntegerPickerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		C910AC1D2162C2FD00D1F982 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C910AC1E2162C2FD00D1F982 /* AppDelegate.swift */,
+				C910AC202162C2FD00D1F982 /* ViewController.swift */,
+				C910AC252162C2FE00D1F982 /* Assets.xcassets */,
+				C910AC272162C2FE00D1F982 /* LaunchScreen.storyboard */,
+				C910AC2A2162C2FE00D1F982 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		C910AC382162C88F00D1F982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +189,23 @@
 			productReference = C910AC072162C14600D1F982 /* CCSIntegerPickerViewControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C910AC1B2162C2FD00D1F982 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C910AC2D2162C2FE00D1F982 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				C910AC182162C2FD00D1F982 /* Sources */,
+				C910AC192162C2FD00D1F982 /* Frameworks */,
+				C910AC1A2162C2FD00D1F982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = C910AC1C2162C2FD00D1F982 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +218,12 @@
 				TargetAttributes = {
 					C910ABFD2162C14500D1F982 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					C910AC062162C14600D1F982 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C910AC1B2162C2FD00D1F982 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -160,6 +234,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C910ABF42162C14500D1F982;
 			productRefGroup = C910ABFF2162C14500D1F982 /* Products */;
@@ -168,6 +243,7 @@
 			targets = (
 				C910ABFD2162C14500D1F982 /* CCSIntegerPickerViewController */,
 				C910AC062162C14600D1F982 /* CCSIntegerPickerViewControllerTests */,
+				C910AC1B2162C2FD00D1F982 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +263,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C910AC1A2162C2FD00D1F982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910AC292162C2FE00D1F982 /* LaunchScreen.storyboard in Resources */,
+				C910AC262162C2FE00D1F982 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C910AC352162C70500D1F982 /* IntegerPickerTableViewCell.swift in Sources */,
+				C910AC2F2162C5AA00D1F982 /* IntegerPickerViewController.swift in Sources */,
+				C910AC372162C7D700D1F982 /* CheckmarkTableViewCell.swift in Sources */,
+				C910AC332162C69A00D1F982 /* UnitName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +291,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C910AC0D2162C14600D1F982 /* CCSIntegerPickerViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C910AC182162C2FD00D1F982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910AC212162C2FD00D1F982 /* ViewController.swift in Sources */,
+				C910AC1F2162C2FD00D1F982 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +312,17 @@
 			targetProxy = C910AC092162C14600D1F982 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C910AC272162C2FE00D1F982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C910AC282162C2FE00D1F982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C910AC102162C14600D1F982 /* Debug */ = {
@@ -341,6 +450,7 @@
 		C910AC132162C14600D1F982 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoaswiftly.CCSIntegerPickerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +477,7 @@
 		C910AC142162C14600D1F982 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +503,7 @@
 		C910AC162162C14600D1F982 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RRWU6LR2EP;
 				INFOPLIST_FILE = CCSIntegerPickerViewControllerTests/Info.plist;
@@ -409,6 +522,7 @@
 		C910AC172162C14600D1F982 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RRWU6LR2EP;
 				INFOPLIST_FILE = CCSIntegerPickerViewControllerTests/Info.plist;
@@ -418,6 +532,42 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoaswiftly.CCSIntegerPickerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C910AC2B2162C2FE00D1F982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRWU6LR2EP;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoaswiftly.integerpikcer.example.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C910AC2C2162C2FE00D1F982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRWU6LR2EP;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoaswiftly.integerpikcer.example.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +600,15 @@
 			buildConfigurations = (
 				C910AC162162C14600D1F982 /* Debug */,
 				C910AC172162C14600D1F982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C910AC2D2162C2FE00D1F982 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C910AC2B2162C2FE00D1F982 /* Debug */,
+				C910AC2C2162C2FE00D1F982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
